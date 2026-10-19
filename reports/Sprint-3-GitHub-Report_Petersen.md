@@ -6,6 +6,7 @@
 **Repository URLs:**
 - Backend (Firebase rules + Cloud Functions): https://github.com/zsheppard78/budgetly_backend_nodejs
 - Web app (customer-facing): https://github.com/zsheppard78/budgetly_web_customer
+- Contracts (shared schemas, PRs reviewed): https://github.com/zsheppard78/budgetly_contracts
 
 ---
 
@@ -15,17 +16,17 @@ Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20
 
 | # | Repo | PR Title | Link | Author | Reviewers | Merge Date |
 |---|---|---|---|---|---|---|
-| 15 | budgetly_backend_nodejs | SCRUM-81: Firestore rules and tests for per-user budgets | [PR #15](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/15) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
-| 16 | budgetly_backend_nodejs | SCRUM-86: Firestore rules and tests for manual transactions | [PR #16](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/16) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
-| 17 | budgetly_backend_nodejs | SCRUM-73 to 76: categorize imports (rules, merchant cache, AI chunks) with tests and CI | [PR #17](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/17) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
-| 29 | budgetly_web_customer | SCRUM-87: empty states when a user has no budgets yet (dashboard and budget page) | [PR #29](https://github.com/zsheppard78/budgetly_web_customer/pull/29) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
-| 30 | budgetly_web_customer | SCRUM-81, SCRUM-85: budgets come from Firestore instead of sample data | [PR #30](https://github.com/zsheppard78/budgetly_web_customer/pull/30) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
-| 31 | budgetly_web_customer | SCRUM-86: add, edit and delete manual transactions | [PR #31](https://github.com/zsheppard78/budgetly_web_customer/pull/31) | tylerpetersen1 | tylerpetersen1 (self-merged) | Oct 16, 2026 |
-| 32 | budgetly_web_customer | SCRUM-86: edit a manual transaction in place on its row | [PR #32](https://github.com/zsheppard78/budgetly_web_customer/pull/32) | tylerpetersen1 | tylerpetersen1 (self-merged) | Oct 16, 2026 |
+| 15 | budgetly_backend_nodejs | SCRUM-81: Firestore rules and tests for per-user budgets | [PR #15](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/15) | tylerpetersen1 | zsheppard78 (reviewed and merged) | Oct 16, 2026 |
+| 16 | budgetly_backend_nodejs | SCRUM-86: Firestore rules and tests for manual transactions | [PR #16](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/16) | tylerpetersen1 | zsheppard78 (reviewed and merged) | Oct 16, 2026 |
+| 17 | budgetly_backend_nodejs | SCRUM-73 to 76: categorize imports (rules, merchant cache, AI chunks) with tests and CI | [PR #17](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/17) | tylerpetersen1 | zsheppard78 (reviewed and merged) | Oct 16, 2026 |
+| 29 | budgetly_web_customer | SCRUM-87: empty states when a user has no budgets yet (dashboard and budget page) | [PR #29](https://github.com/zsheppard78/budgetly_web_customer/pull/29) | tylerpetersen1 | zsheppard78 (reviewed and merged) | Oct 16, 2026 |
+| 30 | budgetly_web_customer | SCRUM-81, SCRUM-85: budgets come from Firestore instead of sample data | [PR #30](https://github.com/zsheppard78/budgetly_web_customer/pull/30) | tylerpetersen1 | zsheppard78 (reviewed and merged) | Oct 16, 2026 |
+| 31 | budgetly_web_customer | SCRUM-86: add, edit and delete manual transactions | [PR #31](https://github.com/zsheppard78/budgetly_web_customer/pull/31) | tylerpetersen1 | None (self-merged) | Oct 16, 2026 |
+| 32 | budgetly_web_customer | SCRUM-86: edit a manual transaction in place on its row | [PR #32](https://github.com/zsheppard78/budgetly_web_customer/pull/32) | tylerpetersen1 | None (self-merged) | Oct 16, 2026 |
 
-"Reviewers" comes from the merge commit. Formal approvals are recorded on GitHub, not in git.
+Reviewers: the teammate who reviewed and merged the PR (from the merge record); "None (self-merged)" where I merged my own.
 
-**Totals:** 7 PRs authored and merged (3 backend, 4 web). 5 of 7 were Reviewers my teammate.
+**Totals:** 7 PRs authored and merged (3 backend, 4 web). 5 of 7 were merged by my teammate.
 
 **PRs I reviewed/merged for my teammate (9):**
 - budgetly_backend_nodejs #11 (SCRUM-68), #12 (SCRUM-70–72), #13 (free merchant keyword rules), #14 (keep deploys free) and #18 (SCRUM-88)
@@ -57,7 +58,7 @@ Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20
 | budgetly_web_customer | 4 |
 | **Total** | **7** (all through merged PRs) |
 
-- **Date:** Oct 16, 2026
+- **Date range:** Oct 16, 2026 (first commit) – Oct 16, 2026 (last commit)
 - **No direct pushes to `main` this sprint**, compared with 3 commits that reached `main` without a PR in Sprint 2.
 - Every commit references its Jira key (`SCRUM-73` to `SCRUM-87`), and branches are named after tickets (e.g. `feature/scrum-81-85-real-budgets`).
 - About 1,500 lines added in total. The biggest change is PR #17: 845 lines across 9 files, including `merchantCache.js`, `importCategorization.js` and the CI workflow.
