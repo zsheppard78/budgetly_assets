@@ -13,7 +13,7 @@
 
 Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20` (run in each repo)
 
-| # | Repo | PR Title | Link | Author | Merged by | Merge Date |
+| # | Repo | PR Title | Link | Author | Reviewers | Merge Date |
 |---|---|---|---|---|---|---|
 | 15 | budgetly_backend_nodejs | SCRUM-81: Firestore rules and tests for per-user budgets | [PR #15](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/15) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
 | 16 | budgetly_backend_nodejs | SCRUM-86: Firestore rules and tests for manual transactions | [PR #16](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/16) | tylerpetersen1 | zsheppard78 | Oct 16, 2026 |
@@ -23,9 +23,9 @@ Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20
 | 31 | budgetly_web_customer | SCRUM-86: add, edit and delete manual transactions | [PR #31](https://github.com/zsheppard78/budgetly_web_customer/pull/31) | tylerpetersen1 | tylerpetersen1 (self-merged) | Oct 16, 2026 |
 | 32 | budgetly_web_customer | SCRUM-86: edit a manual transaction in place on its row | [PR #32](https://github.com/zsheppard78/budgetly_web_customer/pull/32) | tylerpetersen1 | tylerpetersen1 (self-merged) | Oct 16, 2026 |
 
-"Merged by" comes from the merge commit. Formal approvals are recorded on GitHub, not in git.
+"Reviewers" comes from the merge commit. Formal approvals are recorded on GitHub, not in git.
 
-**Totals:** 7 PRs authored and merged (3 backend, 4 web). 5 of 7 were merged by my teammate.
+**Totals:** 7 PRs authored and merged (3 backend, 4 web). 5 of 7 were Reviewers my teammate.
 
 **PRs I reviewed/merged for my teammate (9):**
 - budgetly_backend_nodejs #11 (SCRUM-68), #12 (SCRUM-70–72), #13 (free merchant keyword rules), #14 (keep deploys free) and #18 (SCRUM-88)
