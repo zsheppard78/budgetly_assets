@@ -87,7 +87,7 @@ Titles are the PR titles; where a title was the default or cut off, the commit s
 | **Total** | **23** |
 
 - **Date range:** Oct 8, 2026 (first commit) – Oct 19, 2026 (last commit), with commits on Oct 8, 9 and 19.
-- **No direct pushes to `main` this sprint.** Every commit went through a feature branch and a PR, compared with 10 direct-to-main commits in Sprint 2.
+- **No direct pushes to `main` in the code repos this sprint.** Every code commit went through a feature branch and a PR, compared with 10 direct-to-main commits in Sprint 2. The only exceptions are two small edits to this report file on Oct 19 in `budgetly_assets`, made in the GitHub web editor (docs only, not counted).
 - Commits and branches reference Jira keys (`SCRUM-68` to `SCRUM-88`) and are named after tickets (e.g. `feature/scrum-84-settings-income`).
 
 ---
