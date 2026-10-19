@@ -88,17 +88,11 @@ All issues were estimated at 1–3 points, and all of the planned work (49 point
 ## Blockers & Scope Changes
 
 - **Major blockers:**
-  - **AI cost:** AI categorization needed a paid Claude API key. We built and tested the AI path (SCRUM-70 – 72), then switched it off and shipped free merchant keyword rules instead. They categorize about 97% of our test statements at no cost.
-  - **Secret check on deploy:** keeping the AI function in the code made Firebase ask for a Secret Manager key on every deploy, so we moved it out of the deployed functions.
-  - **Credit card statements:** card payments ("AUTOMATIC PAYMENT - THANK YOU") were being counted as income, which inflated every budget. This was fixed with the Transfer category and account types (SCRUM-92).
-- **Scope changes:** 17 issues (39 points) were added mid-sprint after testing with real statements:
-  - dashboard readability (SCRUM-93, 97 – 100)
-  - Auto budget and custom categories (SCRUM-101 – 105)
-  - deleting statements and credit/debit card statements (SCRUM-91, 92, 106 – 108)
-  - process tasks (SCRUM-89, 90)
-
-  Nothing was removed.
-- **Why work spilled over:** No spillover. All 19 committed issues and all 17 added issues were completed within the sprint (88 / 88 points).
+  - The AI API costs money, so we kept the Claude categorizer off and shipped free keyword rules instead (about 97% of test transactions categorized).
+  - Firebase asked for a Secret Manager key on every deploy until we moved the AI function out of the deployed code.
+  - Credit card payments counted as income and inflated budgets until card payments became Transfers (SCRUM-108).
+- **Scope changes:** 17 issues (39 points) added mid-sprint from demo feedback and testing with real statements: dashboard readability (SCRUM-93, 97 – 100), Auto budget (SCRUM-101 – 105), statement delete and credit cards (SCRUM-91, 92, 106 – 108), and process tasks (SCRUM-89, 90). Nothing was removed.
+- **Why work spilled over:** None. All 36 issues (88 / 88 points) were completed in the sprint.
 
 ---
 
