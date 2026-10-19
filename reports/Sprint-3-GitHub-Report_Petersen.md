@@ -27,10 +27,10 @@ Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20
 
 **Totals:** 7 PRs authored and merged (3 backend, 4 web). 5 of 7 were merged by my teammate.
 
-**PRs I reviewed/merged for my teammate (8):**
+**PRs I reviewed/merged for my teammate (9):**
 - budgetly_backend_nodejs #11 (SCRUM-68), #12 (SCRUM-70–72), #13 (free merchant keyword rules), #14 (keep deploys free) and #18 (SCRUM-88)
 - budgetly_web_customer #33 (SCRUM-77) and #34 (SCRUM-84)
-- budgetly_contracts #1 (SCRUM-68, 69)
+- budgetly_contracts #1 (SCRUM-68, 69) and #3 (SCRUM-80)
 
 ---
 
@@ -45,7 +45,7 @@ Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20
 | Manual transaction rules | Firestore rules that allow only the exact shape of a manual transaction, and keep imported ones read-only except the category + 7 emulator tests | SCRUM-86 |
 | Import categorization | Categorization runs inside the import before the Firestore write: free rules first, then a per-user merchant cache of categories the user picked (saved by the new `onTransactionCategoryChanged` function), then optional AI in chunks of 50 with a time budget so the import always finishes inside the function timeout | SCRUM-73, 74, 75 |
 | Tests and CI | 35 unit tests for import categorization with a mocked AI client; GitHub Actions workflow that runs the backend unit tests on every PR and push to main | SCRUM-76 |
-| Code review | Reviewed and merged 8 of my teammate's PRs across all three repos | — |
+| Code review | Reviewed and merged 9 of my teammate's PRs across all three repos | — |
 
 ---
 
@@ -66,4 +66,4 @@ Query used: `is:pr is:merged author:tylerpetersen1 merged:2026-10-08..2026-10-20
 
 ## Summary
 
-My Sprint 3 work made the app run on real user data. Budgets now live in Firestore instead of sample data, new users see helpful empty states, and users can add, edit and delete transactions by hand. Each of these has matching security rules and emulator tests. On the backend I wired categorization into the import pipeline with a merchant cache, so once a user picks a category for a merchant, future imports reuse it with no AI call, and added CI so the backend tests run on every pull request. I also reviewed and merged 8 of my teammate's PRs, and every one of my commits went through a PR.
+My Sprint 3 work made the app run on real user data. Budgets now live in Firestore instead of sample data, new users see helpful empty states, and users can add, edit and delete transactions by hand. Each of these has matching security rules and emulator tests. On the backend I wired categorization into the import pipeline with a merchant cache, so once a user picks a category for a merchant, future imports reuse it with no AI call, and added CI so the backend tests run on every pull request. I also reviewed and merged 9 of my teammate's PRs, and every one of my commits went through a PR.

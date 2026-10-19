@@ -51,14 +51,13 @@ Titles are the PR titles; where a title was the default or cut off, the commit s
 |---|---|---|---|---|---|
 | 1 | SCRUM-68, SCRUM-69: category list, category fields and AI categorization interface | [PR #1](https://github.com/zsheppard78/budgetly_contracts/pull/1) | zsheppard78 | tylerpetersen1 | Oct 9, 2026 |
 | 2 | removed need for api key (rule source also covers the free merchant keyword list) | [PR #2](https://github.com/zsheppard78/budgetly_contracts/pull/2) | zsheppard78 | zsheppard78 (self-merged) | Oct 9, 2026 |
-
-**Open at time of writing:** budgetly_contracts `feature/scrum-80-budgets-settings-schema` (SCRUM-80: Firestore schema for budgets and user settings), pushed Oct 19 and waiting for review.
+| 3 | SCRUM-80: Firestore schema for budgets and user settings (monthly income) | [PR #3](https://github.com/zsheppard78/budgetly_contracts/pull/3) | zsheppard78 | tylerpetersen1 | Oct 19, 2026 |
 
 **PRs I reviewed/merged for my teammate:**
 - budgetly_web_customer [PR #29](https://github.com/zsheppard78/budgetly_web_customer/pull/29) (SCRUM-87: empty states) and [PR #30](https://github.com/zsheppard78/budgetly_web_customer/pull/30) (SCRUM-81, 85: budgets from Firestore), by tylerpetersen1, merged Oct 16, 2026.
 - budgetly_backend_nodejs [PR #15](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/15) (SCRUM-81: budget rules), [PR #16](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/16) (SCRUM-86: manual transaction rules) and [PR #17](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/17) (SCRUM-73–76: import categorization), by tylerpetersen1, merged Oct 16, 2026.
 
-**Totals:** 21 PRs authored and merged (12 web, 7 backend, 2 contracts), plus 1 open. 8 of 21 were merged by my teammate, and I merged 5 of his. That's more cross-merging than Sprint 2, but the Oct 8 batch (web #20–28, backend #9–10) was still self-merged. Branch protection (SCRUM-89, PR + 1 approval) is the planned fix. Every web PR triggers the GitHub Actions Firebase preview deploy, and since Tyler's PR #17 added a backend-tests workflow, backend PRs run the unit tests in CI as well.
+**Totals:** 22 PRs authored and merged (12 web, 7 backend, 3 contracts). 9 of 22 were merged by my teammate, and I merged 5 of his. That's more cross-merging than Sprint 2, but the Oct 8 batch (web #20–28, backend #9–10) was still self-merged. Branch protection (SCRUM-89, PR + 1 approval) is the planned fix. Every web PR triggers the GitHub Actions Firebase preview deploy, and since Tyler's PR #17 added a backend-tests workflow, backend PRs run the unit tests in CI as well.
 
 ---
 
@@ -84,7 +83,7 @@ Titles are the PR titles; where a title was the default or cut off, the commit s
 |---|---|
 | budgetly_web_customer | 13 |
 | budgetly_backend_nodejs | 7 |
-| budgetly_contracts | 3 (2 merged + 1 in the open SCRUM-80 PR) |
+| budgetly_contracts | 3 |
 | **Total** | **23** |
 
 - **Date range:** Oct 8, 2026 – Oct 19, 2026, spread over Oct 8, 9 and 19.
