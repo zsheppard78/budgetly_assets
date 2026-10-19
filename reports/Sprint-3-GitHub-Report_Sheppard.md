@@ -14,44 +14,44 @@
 ## Pull Requests Authored by Me (Merged During Sprint)
 
 Query used: `is:pr is:merged author:zsheppard78 merged:2026-10-08..2026-10-20` (run in each repo).
-Titles are the PR titles; where a title was the default or cut off, the commit subject is used. "Merged by" comes from the merge commit.
+Titles are the PR titles; where a title was the default or cut off, the commit subject is used. Reviewers: the teammate who reviewed and merged the PR (from the merge record); "None (self-merged)" where I merged my own.
 
 ### budgetly_web_customer
 
-| # | PR Title | Link | Author | Merged by | Merge Date |
+| # | PR Title | Link | Author | Reviewers | Merge Date |
 |---|---|---|---|---|---|
-| 20 | Dashboard: real current month with month switcher, signed-in user's name, plain tile labels (SCRUM-97, 98) | [PR #20](https://github.com/zsheppard78/budgetly_web_customer/pull/20) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 21 | Dashboard: clearer budget summary with labeled spent, left to spend and total budget (SCRUM-99) | [PR #21](https://github.com/zsheppard78/budgetly_web_customer/pull/21) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 22 | Dashboard: monthly budget is based on the month's money in (SCRUM-100) | [PR #22](https://github.com/zsheppard78/budgetly_web_customer/pull/22) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 23 | Budget page: Auto budget with preview, and custom categories (SCRUM-101, 102) | [PR #23](https://github.com/zsheppard78/budgetly_web_customer/pull/23) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 24 | Import page: delete a statement with its transactions and file | [PR #24](https://github.com/zsheppard78/budgetly_web_customer/pull/24) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 25 | Budget page: total budget is the month's money in (SCRUM-103) | [PR #25](https://github.com/zsheppard78/budgetly_web_customer/pull/25) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 26 | Auto budget: allocate all money in, with optional savings taken evenly from categories (SCRUM-104) | [PR #26](https://github.com/zsheppard78/budgetly_web_customer/pull/26) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 27 | Budget page shows one month at a time; Auto budget explains uncategorized spending (SCRUM-105) | [PR #27](https://github.com/zsheppard78/budgetly_web_customer/pull/27) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 28 | Credit card statements: Transfer category left out of money in/out, send account type on upload (SCRUM-92) | [PR #28](https://github.com/zsheppard78/budgetly_web_customer/pull/28) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 33 | SCRUM-77: inline category edit shows saving and errors, and can apply to the same merchant | [PR #33](https://github.com/zsheppard78/budgetly_web_customer/pull/33) | zsheppard78 | tylerpetersen1 | Oct 19, 2026 |
-| 34 | SCRUM-84: Settings saves your name and monthly income | [PR #34](https://github.com/zsheppard78/budgetly_web_customer/pull/34) | zsheppard78 | tylerpetersen1 | Oct 19, 2026 |
-| 35 | Dashboard: no fake "0% vs last month" without data; Transactions net leaves out transfers | [PR #35](https://github.com/zsheppard78/budgetly_web_customer/pull/35) | zsheppard78 | zsheppard78 (self-merged) | Oct 19, 2026 |
+| 20 | Dashboard: real current month with month switcher, signed-in user's name, plain tile labels (SCRUM-97, 98) | [PR #20](https://github.com/zsheppard78/budgetly_web_customer/pull/20) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 21 | Dashboard: clearer budget summary with labeled spent, left to spend and total budget (SCRUM-99) | [PR #21](https://github.com/zsheppard78/budgetly_web_customer/pull/21) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 22 | Dashboard: monthly budget is based on the month's money in (SCRUM-100) | [PR #22](https://github.com/zsheppard78/budgetly_web_customer/pull/22) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 23 | Budget page: Auto budget with preview, and custom categories (SCRUM-101, 102) | [PR #23](https://github.com/zsheppard78/budgetly_web_customer/pull/23) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 24 | Import page: delete a statement with its transactions and file | [PR #24](https://github.com/zsheppard78/budgetly_web_customer/pull/24) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 25 | Budget page: total budget is the month's money in (SCRUM-103) | [PR #25](https://github.com/zsheppard78/budgetly_web_customer/pull/25) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 26 | Auto budget: allocate all money in, with optional savings taken evenly from categories (SCRUM-104) | [PR #26](https://github.com/zsheppard78/budgetly_web_customer/pull/26) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 27 | Budget page shows one month at a time; Auto budget explains uncategorized spending (SCRUM-105) | [PR #27](https://github.com/zsheppard78/budgetly_web_customer/pull/27) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 28 | Credit card statements: Transfer category left out of money in/out, send account type on upload (SCRUM-92) | [PR #28](https://github.com/zsheppard78/budgetly_web_customer/pull/28) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 33 | SCRUM-77: inline category edit shows saving and errors, and can apply to the same merchant | [PR #33](https://github.com/zsheppard78/budgetly_web_customer/pull/33) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 19, 2026 |
+| 34 | SCRUM-84: Settings saves your name and monthly income | [PR #34](https://github.com/zsheppard78/budgetly_web_customer/pull/34) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 19, 2026 |
+| 35 | Dashboard: no fake "0% vs last month" without data; Transactions net leaves out transfers | [PR #35](https://github.com/zsheppard78/budgetly_web_customer/pull/35) | zsheppard78 | None (self-merged) | Oct 19, 2026 |
 
 ### budgetly_backend_nodejs
 
-| # | PR Title | Link | Author | Merged by | Merge Date |
+| # | PR Title | Link | Author | Reviewers | Merge Date |
 |---|---|---|---|---|---|
-| 9 | Add deleteImport callable: removes an import's transactions, file and record | [PR #9](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/9) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 10 | fixed credit card statement upload (SCRUM-92) | [PR #10](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/10) | zsheppard78 | zsheppard78 (self-merged) | Oct 8, 2026 |
-| 11 | SCRUM-68: backend copy of the category list and category fields | [PR #11](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/11) | zsheppard78 | tylerpetersen1 | Oct 9, 2026 |
-| 12 | SCRUM-70, SCRUM-71, SCRUM-72: categorize transactions with Claude Haiku 5.5, fall back to Uncategorized | [PR #12](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/12) | zsheppard78 | tylerpetersen1 | Oct 9, 2026 |
-| 13 | Free merchant keyword rules: categorize common merchants on import with no AI cost | [PR #13](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/13) | zsheppard78 | tylerpetersen1 | Oct 9, 2026 |
-| 14 | fixed ai categorization (keep deploys free: move the paid Claude function out of index.js) | [PR #14](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/14) | zsheppard78 | tylerpetersen1 | Oct 9, 2026 |
-| 18 | SCRUM-88: Firestore rules and tests for profile settings | [PR #18](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/18) | zsheppard78 | tylerpetersen1 | Oct 19, 2026 |
+| 9 | Add deleteImport callable: removes an import's transactions, file and record | [PR #9](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/9) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 10 | fixed credit card statement upload (SCRUM-92) | [PR #10](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/10) | zsheppard78 | None (self-merged) | Oct 8, 2026 |
+| 11 | SCRUM-68: backend copy of the category list and category fields | [PR #11](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/11) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 9, 2026 |
+| 12 | SCRUM-70, SCRUM-71, SCRUM-72: categorize transactions with Claude Haiku 5.5, fall back to Uncategorized | [PR #12](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/12) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 9, 2026 |
+| 13 | Free merchant keyword rules: categorize common merchants on import with no AI cost | [PR #13](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/13) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 9, 2026 |
+| 14 | fixed ai categorization (keep deploys free: move the paid Claude function out of index.js) | [PR #14](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/14) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 9, 2026 |
+| 18 | SCRUM-88: Firestore rules and tests for profile settings | [PR #18](https://github.com/zsheppard78/budgetly_backend_nodejs/pull/18) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 19, 2026 |
 
 ### budgetly_contracts
 
-| # | PR Title | Link | Author | Merged by | Merge Date |
+| # | PR Title | Link | Author | Reviewers | Merge Date |
 |---|---|---|---|---|---|
-| 1 | SCRUM-68, SCRUM-69: category list, category fields and AI categorization interface | [PR #1](https://github.com/zsheppard78/budgetly_contracts/pull/1) | zsheppard78 | tylerpetersen1 | Oct 9, 2026 |
-| 2 | removed need for api key (rule source also covers the free merchant keyword list) | [PR #2](https://github.com/zsheppard78/budgetly_contracts/pull/2) | zsheppard78 | zsheppard78 (self-merged) | Oct 9, 2026 |
-| 3 | SCRUM-80: Firestore schema for budgets and user settings (monthly income) | [PR #3](https://github.com/zsheppard78/budgetly_contracts/pull/3) | zsheppard78 | tylerpetersen1 | Oct 19, 2026 |
+| 1 | SCRUM-68, SCRUM-69: category list, category fields and AI categorization interface | [PR #1](https://github.com/zsheppard78/budgetly_contracts/pull/1) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 9, 2026 |
+| 2 | removed need for api key (rule source also covers the free merchant keyword list) | [PR #2](https://github.com/zsheppard78/budgetly_contracts/pull/2) | zsheppard78 | None (self-merged) | Oct 9, 2026 |
+| 3 | SCRUM-80: Firestore schema for budgets and user settings (monthly income) | [PR #3](https://github.com/zsheppard78/budgetly_contracts/pull/3) | zsheppard78 | tylerpetersen1 (reviewed and merged) | Oct 19, 2026 |
 
 **PRs I reviewed/merged for my teammate:**
 - budgetly_web_customer [PR #29](https://github.com/zsheppard78/budgetly_web_customer/pull/29) (SCRUM-87: empty states) and [PR #30](https://github.com/zsheppard78/budgetly_web_customer/pull/30) (SCRUM-81, 85: budgets from Firestore), by tylerpetersen1, merged Oct 16, 2026.
@@ -86,7 +86,7 @@ Titles are the PR titles; where a title was the default or cut off, the commit s
 | budgetly_contracts | 3 |
 | **Total** | **23** |
 
-- **Date range:** Oct 8, 2026 – Oct 19, 2026, spread over Oct 8, 9 and 19.
+- **Date range:** Oct 8, 2026 (first commit) – Oct 19, 2026 (last commit), with commits on Oct 8, 9 and 19.
 - **No direct pushes to `main` this sprint.** Every commit went through a feature branch and a PR, compared with 10 direct-to-main commits in Sprint 2.
 - Commits and branches reference Jira keys (`SCRUM-68` to `SCRUM-88`) and are named after tickets (e.g. `feature/scrum-84-settings-income`).
 
